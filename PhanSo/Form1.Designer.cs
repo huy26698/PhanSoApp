@@ -48,7 +48,7 @@
             // 
             // txtTuSo02
             // 
-            this.txtTuSo02.Location = new System.Drawing.Point(160, 89);
+            this.txtTuSo02.Location = new System.Drawing.Point(185, 87);
             this.txtTuSo02.Margin = new System.Windows.Forms.Padding(5);
             this.txtTuSo02.Name = "txtTuSo02";
             this.txtTuSo02.Size = new System.Drawing.Size(172, 34);
@@ -64,7 +64,7 @@
             // 
             // txtTuSo01
             // 
-            this.txtTuSo01.Location = new System.Drawing.Point(160, 27);
+            this.txtTuSo01.Location = new System.Drawing.Point(185, 27);
             this.txtTuSo01.Margin = new System.Windows.Forms.Padding(5);
             this.txtTuSo01.Name = "txtTuSo01";
             this.txtTuSo01.Size = new System.Drawing.Size(172, 34);
@@ -90,7 +90,7 @@
             // 
             // btnSoSanh
             // 
-            this.btnSoSanh.Location = new System.Drawing.Point(160, 142);
+            this.btnSoSanh.Location = new System.Drawing.Point(185, 142);
             this.btnSoSanh.Name = "btnSoSanh";
             this.btnSoSanh.Size = new System.Drawing.Size(172, 39);
             this.btnSoSanh.TabIndex = 10;
