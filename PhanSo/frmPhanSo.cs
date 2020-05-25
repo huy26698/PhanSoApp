@@ -24,5 +24,11 @@ namespace PhanSo
                 Application.Exit();
             }
         }
+
+        private void btnSoSanh_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txtTuSo01.Text);
+            int b = int.Parse(txtMauSo01.Text);
+        }
     }
 }
