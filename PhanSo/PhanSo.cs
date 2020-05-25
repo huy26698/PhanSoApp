@@ -15,9 +15,12 @@ namespace PhanSo
             this.mauso = m;
         }
 
-        public bool sosanh(PhanSo ps)
+        public static bool sosanh(PhanSo ps01, PhanSo ps02)
         {
-            return true;
+            int tu01 = ps01.tuso * ps02.mauso;
+            int tu02 = ps02.tuso * ps01.mauso;
+
+            return tu01 == tu02; 
         }
     }
 }

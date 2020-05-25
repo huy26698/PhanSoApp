@@ -36,6 +36,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnSoSanh = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtMauSo02
@@ -108,11 +110,31 @@
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(365, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(20, 29);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "/";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(365, 87);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(20, 29);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "/";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 208);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnSoSanh);
             this.Controls.Add(this.label2);
@@ -141,6 +163,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnSoSanh;
         private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
