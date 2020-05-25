@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Text;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestPhanSo
@@ -31,6 +31,21 @@ namespace TestPhanSo
             bool expected = false;
 
             Assert.AreEqual(expected, actual);
+        }
+
+        private TestContext testConText;
+
+        public TestContext TestConText
+        {
+            get { return testConText; }
+            set { testConText = value; }
+        }
+
+
+        [TestMethod]
+        public void TestFile()
+        {
+ 
         }
     }
 }
