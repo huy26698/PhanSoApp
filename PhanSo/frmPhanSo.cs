@@ -24,5 +24,13 @@ namespace PhanSo
                 Application.Exit();
             }
         }
+
+        private void btnSoSanh_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtTuSo01.Text))
+            {
+                int a = int.Parse(txtTuSo01.Text);
+            }
+        }
     }
 }

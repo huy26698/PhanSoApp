@@ -96,6 +96,7 @@
             this.btnSoSanh.TabIndex = 10;
             this.btnSoSanh.Text = "So Sánh";
             this.btnSoSanh.UseVisualStyleBackColor = true;
+            this.btnSoSanh.Click += new System.EventHandler(this.btnSoSanh_Click);
             // 
             // btnThoat
             // 
@@ -121,7 +122,7 @@
             this.Controls.Add(this.txtMauSo01);
             this.Controls.Add(this.txtTuSo01);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
